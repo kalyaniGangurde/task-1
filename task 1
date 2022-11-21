@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> preotech</title>
+
+        <link rel="stylesheet" href="Task1.css">
+   <script>
+    
+
+       function cube(){
+        document.getElementById("pyramid").innerHTML +=
+            "<div>pyramid </div>";
+    }
+    function pyramid(){
+        alert("pyramid")
+    }
+
+</script>
+
+</head>
+<body>
+    
+
+   
+    <div id="xyz">
+        <table style="border: 1px; height: 800px;">
+           
+            <th style="width: 100px ; border: solid; width: 600px;">
+                
+                 
+           
+            <div style="position: 100px;">
+                <h1 style="border: solid; position: absolute;top: 0px; width: 570px;  "> Function</h1>
+               
+            <table style=" border: solid; margin-left: 50px; width: 400px;">
+                <h2  style=" margin-right: 300px;">Assignment Task</h2>
+                <tr style="text-align: left;  " >
+                <td  style="margin-left: 200px; border: solid;"><input type="button" onclick="cube()" value=" cube"></td>
+                
+                </tr>
+                <tr style="text-align: left;">
+                <td style="border: solid;"> <input type="button" value=" pyramid" onclick="pyramid();"></td>
+                
+                </tr>
+                </table>
+
+            
+            
+            </th>
+        </div>
+              
+            
+            <th style="padding:20px;  border: solid; background-color: black; margin: 400px; height: 500px; width: 1000px; color: white;">
+            <div id="data" style="color: white;"> <div id="pyramid"></div></div>
+            
+            </th>
+        </table>
+    
+    </div>
+
+    
+    
+</body>
+
+</html>
